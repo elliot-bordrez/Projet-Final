@@ -1,6 +1,7 @@
 <?php session_start(); 
 include("classes/User.php");
 include("classes/Stade.php");
+include("classes/Note.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,12 +44,7 @@ try {
 
         $TheUser->setUserById($_SESSION['id']);
 
-        ?>
-        <form action="" method="post">
-            <input type="submit" name="deconnexion" value="Se déconnecter">
-        </form>
-        <a href="page2.php">acces à la page2</a>
-        <?php
+        
     }else{
         echo "Veuillez vous identifier";
     ?>
