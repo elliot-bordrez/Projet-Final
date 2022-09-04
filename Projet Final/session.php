@@ -18,8 +18,8 @@ $TheUser = new User(null,null,null);
 
 try {
         // -------------Connexion à la BDD et récupération et traitement du formulaire
-        $ipserver = "localhost:3306";
-        $nomBase= "projet_final";
+        $ipserver = "mysql-bordrez.alwaysdata.net";
+        $nomBase= "bordrez_projet";
         $loginPrivilege = "SiteWeb";
         $passPrivilege = "SiteWeb";
 
