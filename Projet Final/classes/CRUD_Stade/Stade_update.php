@@ -45,7 +45,6 @@
     </a>
     <div class="dropdown-menu sm-menu">
       <a class="dropdown-item" href="Stade_create.php">Ajouter un stade</a>
-      <a class="dropdown-item" href="Stade_update.php">Modifier un stade</a>
       <a class="dropdown-item" href="Stade_delete.php">Supprimer un stade</a>
       <a class="dropdown-item" href="../CRUD_Note/Note_create.php">Modifer note</a>
     </div>
@@ -61,8 +60,6 @@
     $(this).find('.sm-menu').second().stop(true, true).slideUp(105)
     }, function () {
     $(this).find('.sm-menu').third().stop(true, true).slideUp(105)
-    }, function () {
-    $(this).find('.sm-menu').four().stop(true, true).slideUp(105)
 });
 });
 </script>    
@@ -72,7 +69,6 @@
     $tabStades = $Stade->getAllStade();
     if(isset($_SESSION['Connexion'])){
     ?>
-    <h1> Index </h2>
     <div> Bienvenu <?php echo $TheUser->getLogin()?></div>
 
     <?php

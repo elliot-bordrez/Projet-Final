@@ -43,9 +43,9 @@
               Stade
             </a>
             <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="Stade_create.php">Ajouter un stade</a>
-              <a class="dropdown-item" href="Stade_update.php">Modifier un stade</a>
-              <a class="dropdown-item" href="Stade_delete.php">Supprimer un stade</a>
+              <a class="dropdown-item" href="../CRUD_Stade/Stade_create.php">Ajouter un stade</a>
+              <a class="dropdown-item" href="../CRUD_Stade/Stade_update.php">Modifier un stade</a>
+              <a class="dropdown-item" href="../CRUD_Stade/Stade_delete.php">Supprimer un stade</a>
             </div>
         </form>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

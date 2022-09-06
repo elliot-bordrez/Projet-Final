@@ -154,7 +154,7 @@ class Stade{
                             <?= round($this->MoyenneNote_)."/5" ?>
                         </div>
                         <!-- Product price-->
-                        <span class="text-muted"><?= $this->description_;?></span>
+                        <span class="text-muted"><FONT color="black"><?= $this->description_;?></FONT></span>
 
                     </div>
                 </div>
