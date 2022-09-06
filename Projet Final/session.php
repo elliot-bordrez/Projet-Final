@@ -20,8 +20,8 @@ try {
         // -------------Connexion à la BDD et récupération et traitement du formulaire
         $ipserver = "mysql-bordrez.alwaysdata.net";
         $nomBase= "bordrez_projet";
-        $loginPrivilege = "SiteWeb";
-        $passPrivilege = "SiteWeb";
+        $loginPrivilege = "bordrez_";
+        $passPrivilege = "bordrez0908cesar2207";
 
        $GLOBALS["pdo"] = new PDO('mysql:host='.$ipserver.';dbname='.$nomBase.'', $loginPrivilege, $passPrivilege);
 
